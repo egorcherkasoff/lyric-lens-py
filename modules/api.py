@@ -25,6 +25,7 @@ class API:
             id = song["result"]["id"]
             title = song["result"]["title"]
             song_image_url = song["result"]["song_art_image_thumbnail_url"]
+            song_url = song["result"]["url"]
             primary_artist_name = song["result"]["primary_artist"]["name"]
             primary_artist_url = song["result"]["primary_artist"]["url"]
             # artist_image_url = song["result"]["primary_artist"]["image_url"]
@@ -32,6 +33,7 @@ class API:
                 {
                     "id": id,
                     "title": title,
+                    "song_url": song_url,
                     "song_image": song_image_url,
                     "primary_artist_name": primary_artist_name,
                     "primary_artist_url": primary_artist_url,

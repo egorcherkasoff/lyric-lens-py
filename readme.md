@@ -10,7 +10,7 @@ This app provides a convenient and easy way to access lyrics to any song or arti
 
 -   Retrieves song data from Genius API based on user input
 -   Displays song details such as title, artist name, and album art
--   Get song lyrics on button click _(not yet implemented)_
+-   Get song lyrics on button click
 
 ## Installation
 
